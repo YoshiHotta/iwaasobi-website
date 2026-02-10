@@ -106,8 +106,3 @@ Flutter アプリ内の WebView からは `?webview=true` パラメータを付�
 | ブラウザで直接 | `https://iwaasobi.com/faq` | 表示される |
 | アプリ内 WebView | `https://iwaasobi.com/faq?webview=true` | 非表示 |
 
-## FAQ アンカーリンク
-
-FAQ の各質問には ID が付いており、直接リンクできる。メールでの問い合わせ対応時に特定の質問へ誘導する際に使う。
-
-例: `https://iwaasobi.com/faq#forgot-password`
