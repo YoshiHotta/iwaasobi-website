@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.8;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  color: #3d6b4f;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+  line-height: 1.4;
+  color: #222;
+}
+
+h1 { font-size: 1.75rem; margin-bottom: 1rem; }
+h2 { font-size: 1.375rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+h3 { font-size: 1.125rem; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}

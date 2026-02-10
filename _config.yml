@@ -1,0 +1,17 @@
+title: イワアソビ
+description: クライミングの記録をつけて、仲間と成長しよう
+baseurl: ""
+url: "https://iwaasobi.com"
+
+markdown: kramdown
+kramdown:
+  auto_ids: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
