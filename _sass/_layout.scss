@@ -498,6 +498,28 @@
   }
 }
 
+.check-list--grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+
+  li {
+    line-height: 1.4;
+    padding-top: 0.125rem;
+
+    strong {
+      display: block;
+      font-size: 0.9375rem;
+    }
+
+    small {
+      display: block;
+      font-size: 0.8125rem;
+      color: #64748b;
+    }
+  }
+}
+
 // ============================================
 // Goal Card
 // ============================================

@@ -377,12 +377,12 @@ title: null
           <span class="text-blue">多角的に振り返り。</span>
         </h2>
         <p class="feature-desc">グレード別・エリア別に完登課題を一覧表示。同じ課題に何回トライしたか、いつ完登できたかをタイムライン形式で可視化。「あの課題は3回目のトライでレッドポイントできた」という物語が見えてきます。</p>
-        <div class="review-grid">
-          <div class="review-item"><strong>完登課題タブ</strong><small>グレード別一覧</small></div>
-          <div class="review-item"><strong>エリア別タブ</strong><small>岩場ごとにグループ化</small></div>
-          <div class="review-item"><strong>タイムライン</strong><small>完登までの道のり</small></div>
-          <div class="review-item"><strong>完登動画</strong><small>自分の登りを動画で振り返り</small></div>
-        </div>
+        <ul class="check-list check-list--grid">
+          <li><strong>完登課題タブ</strong><small>グレード別一覧</small></li>
+          <li><strong>エリア別タブ</strong><small>岩場ごとにグループ化</small></li>
+          <li><strong>タイムライン</strong><small>完登までの道のり</small></li>
+          <li><strong>完登動画</strong><small>自分の登りを動画で振り返り</small></li>
+        </ul>
       </div>
     </div>
   </div>
