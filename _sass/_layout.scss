@@ -764,7 +764,9 @@
   font-size: 0.4375rem;
   font-weight: 600;
   color: #3760a1;
-  margin-right: -8px;
+  &:not(:last-of-type) {
+    margin-right: -8px;
+  }
 }
 
 .avatar-count {
@@ -782,33 +784,6 @@
   font-size: 0.75rem;
   font-weight: 500;
   cursor: pointer;
-}
-
-// ============================================
-// Review Grid
-// ============================================
-.review-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-
-.review-item {
-  background: #f8fafc;
-  border-radius: 14px;
-  padding: 0.75rem;
-
-  strong {
-    display: block;
-    font-size: 0.8125rem;
-    font-weight: 600;
-    margin-bottom: 0;
-  }
-
-  small {
-    font-size: 0.6875rem;
-    color: #64748b;
-  }
 }
 
 // ============================================
@@ -1087,9 +1062,7 @@
     grid-template-columns: 1fr;
   }
 
-  .review-grid {
-    grid-template-columns: 1fr;
-  }
+
 
   .feature-section {
     padding: 4rem 0;
