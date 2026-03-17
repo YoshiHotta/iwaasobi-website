@@ -77,7 +77,7 @@ title: null
 </section>
 
 <!-- Offline Map Section -->
-<section class="feature-section feature-section--alt">
+<section id="offline-map" class="feature-section feature-section--alt">
   <div class="section-container">
     <div class="feature-row">
       <div class="feature-phone">
@@ -157,7 +157,7 @@ title: null
 </section>
 
 <!-- Climbing Log Section -->
-<section class="feature-section">
+<section id="climbing-log" class="feature-section">
   <div class="section-container">
     <div class="feature-row feature-row--reverse">
       <div class="feature-phone">
@@ -219,7 +219,7 @@ title: null
 </section>
 
 <!-- Goal Section -->
-<section class="feature-section feature-section--alt">
+<section id="goal" class="feature-section feature-section--alt">
   <div class="section-container">
     <div class="feature-row">
       <div class="feature-phone">
@@ -270,7 +270,7 @@ title: null
 </section>
 
 <!-- Partner Section -->
-<section class="feature-section">
+<section id="partner" class="feature-section">
   <div class="section-container">
     <div class="feature-row feature-row--reverse">
       <div class="feature-phone">
@@ -359,7 +359,7 @@ title: null
 </section>
 
 <!-- Outdoor Review Section -->
-<section class="feature-section feature-section--alt">
+<section id="outdoor-review" class="feature-section feature-section--alt">
   <div class="section-container">
     <div class="feature-row">
       <div class="feature-phone">
@@ -431,7 +431,7 @@ title: null
 </section>
 
 <!-- CTA Section -->
-<section class="cta-section">
+<section id="download" class="cta-section">
   <div class="cta-overlay"></div>
   <div class="cta-content">
     <svg class="cta-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
