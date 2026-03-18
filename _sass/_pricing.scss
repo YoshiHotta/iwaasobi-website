@@ -32,7 +32,7 @@
 .pricing-hero {
   position: relative;
   background: linear-gradient(180deg, #2c4f8a, #1e3a6e);
-  padding: 6rem 1.5rem 5rem;
+  padding: 6rem 1.5rem 10rem;
   text-align: center;
   overflow: hidden;
 }
@@ -76,15 +76,15 @@
 .pricing-cards-section {
   background: #f8fafc;
   padding: 0 0 3rem;
+  margin-top: -7rem;
+  position: relative;
+  z-index: 2;
 }
 
 .pricing-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  margin-top: -3rem;
-  position: relative;
-  z-index: 1;
 }
 
 .pricing-card {
@@ -93,6 +93,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  color: #1c1b1f;
 }
 
 .pricing-card--free {
@@ -254,7 +255,7 @@
 }
 
 .pricing-feature-premium {
-  color: #fff;
+  color: #fff !important;
 
   &::before {
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%231a2e5a' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") center/10px no-repeat;
@@ -263,7 +264,7 @@
 }
 
 .pricing-feature-bonus {
-  color: #fff;
+  color: #fff !important;
 
   &::before {
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/%3E%3C/svg%3E") center/10px no-repeat;
@@ -323,6 +324,7 @@
   text-align: center;
   color: #1c1b1f;
   margin-bottom: 0.75rem;
+  margin-top: 0;
 }
 
 .pricing-section-sub {
@@ -343,6 +345,7 @@
   border: 1px solid #f3f4f6;
   border-radius: 16px;
   padding: 1.5rem;
+  color: #1c1b1f;
 
   h3 {
     font-size: 1rem;
@@ -403,6 +406,7 @@
 
 strong.pricing-tier-text {
   color: #1c1b1f;
+  font-weight: 600;
 }
 
 // Beta info
@@ -417,6 +421,7 @@ strong.pricing-tier-text {
   border-radius: 16px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   padding: 2rem;
+  color: #1c1b1f;
 }
 
 .pricing-beta-header {
@@ -491,6 +496,7 @@ strong.pricing-tier-text {
     font-weight: 700;
     color: #1c1b1f;
     margin-bottom: 1rem;
+    margin-top: 0;
   }
 }
 
