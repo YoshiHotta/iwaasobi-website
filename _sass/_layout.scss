@@ -79,6 +79,13 @@
         color: #1a1a2e;
       }
     }
+
+    &.nav-link--pricing {
+      .page-pricing & {
+        color: #3760a1;
+        font-weight: 600;
+      }
+    }
   }
 }
 
