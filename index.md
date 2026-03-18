@@ -7,10 +7,7 @@ title: null
 <section class="hero">
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <div class="hero-badge">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
-      <span>iOS / Android 対応</span>
-    </div>
+    <p class="hero-app-name">イワアソビ</p>
     <h1 class="hero-heading">
       <span class="hero-heading-white">岩場への全てを、</span>
       <span class="hero-heading-blue">ひとつのアプリに。</span>
@@ -434,7 +431,7 @@ title: null
 <section id="download" class="cta-section">
   <div class="cta-overlay"></div>
   <div class="cta-content">
-    <svg class="cta-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+    <p class="cta-app-name">イワアソビ</p>
     <h2>さあ、岩場へ出かけよう。</h2>
     <p>イワアソビは無料でダウンロードできます。<br>あなたのクライミングライフを、ひとつのアプリで。</p>
     <div class="store-badges">
