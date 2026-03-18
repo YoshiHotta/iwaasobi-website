@@ -1,10 +1,41 @@
 <footer class="site-footer">
   <div class="footer-container">
-    <div class="footer-links">
-      <a href="{{ '/faq' | relative_url }}">FAQ</a>
-      <a href="{{ '/terms' | relative_url }}">利用規約</a>
-      <a href="{{ '/privacy-policy' | relative_url }}">プライバシーポリシー</a>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-header">
+          <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="イワアソビ" width="24" height="24">
+          <span>イワアソビ</span>
+        </div>
+        <p class="footer-brand-desc">岩場への全てを、ひとつのアプリに。クライマーのためのオールインワンアプリ。</p>
+      </div>
+      <div class="footer-col">
+        <h4>機能</h4>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}#offline-map">オフライン地図</a></li>
+          <li><a href="{{ '/' | relative_url }}#climbing-log">クライミングログ</a></li>
+          <li><a href="{{ '/' | relative_url }}#goal">目標管理</a></li>
+          <li><a href="{{ '/' | relative_url }}#partner">パートナー募集</a></li>
+          <li><a href="{{ '/' | relative_url }}#outdoor-review">コミュニティ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>サポート</h4>
+        <ul>
+          <li><a href="{{ '/pricing' | relative_url }}">料金プラン</a></li>
+          <li><a href="{{ '/faq' | relative_url }}">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>法的情報</h4>
+        <ul>
+          <li><a href="{{ '/terms' | relative_url }}">利用規約</a></li>
+          <li><a href="{{ '/privacy-policy' | relative_url }}">プライバシーポリシー</a></li>
+        </ul>
+      </div>
     </div>
-    <p class="footer-copy">&copy; {{ site.time | date: '%Y' }} イワアソビ</p>
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} イワアソビ（Iwaasobi）. All rights reserved.</p>
+      <p>iOS / Android</p>
+    </div>
   </div>
 </footer>
