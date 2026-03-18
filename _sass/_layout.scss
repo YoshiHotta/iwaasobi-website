@@ -11,6 +11,12 @@
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  .page-pricing & {
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .nav-container {
@@ -38,6 +44,10 @@
   img {
     border-radius: 6px;
   }
+
+  .page-pricing & {
+    color: #1a1a2e;
+  }
 }
 
 .nav-right {
@@ -60,6 +70,14 @@
     &:hover {
       color: #fff;
       text-decoration: none;
+    }
+
+    .page-pricing & {
+      color: #64748b;
+
+      &:hover {
+        color: #1a1a2e;
+      }
     }
   }
 }
