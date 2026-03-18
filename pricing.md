@@ -74,7 +74,7 @@ body_class: page-pricing
             <li class="pricing-feature-premium">オフライン地図<span class="text-highlight">無制限</span></li>
             <li class="pricing-feature-premium">写真・動画アップロード<span class="text-highlight">実質無制限*</span></li>
             <li class="pricing-feature-premium">動画オフライン保存</li>
-            <li class="pricing-feature-bonus">3ヶ月間の無料トライアル付き</li>
+            <li class="pricing-feature-bonus">3ヶ月間の無料トライアル期間</li>
           </ul>
         </div>
         <a href="#" class="pricing-btn pricing-btn--white">無料でダウンロード</a>
