@@ -1,6 +1,7 @@
 ---
 layout: default
 title: null
+show_header: true
 ---
 
 <!-- Hero Section -->

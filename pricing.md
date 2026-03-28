@@ -2,6 +2,7 @@
 layout: default
 title: 料金プラン
 body_class: page-pricing
+show_header: true
 ---
 
 <div class="pricing-banner">
